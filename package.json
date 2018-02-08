@@ -1,0 +1,28 @@
+{
+  "name": "ebooks-sell",
+  "version": "1.0.0",
+  "description": "app to sell books",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarekcham/Ebooks-sales-App.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Tarek Al Khatib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarekcham/Ebooks-sales-App/issues"
+  },
+  "homepage": "https://github.com/tarekcham/Ebooks-sales-App#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.4.0"
+  }
+}
